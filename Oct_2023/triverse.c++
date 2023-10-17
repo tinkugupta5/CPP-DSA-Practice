@@ -20,5 +20,6 @@ int main()
 	int n = sizeof(arr) / sizeof(arr[0]);
 
 	printArray(arr, n);
-	return 0;
-}
+	return 0; "
+    
+    
