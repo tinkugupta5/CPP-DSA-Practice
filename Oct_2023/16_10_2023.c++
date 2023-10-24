@@ -40,7 +40,6 @@ int main()
     for (int i = 0; i < n; i++)
     {   
         /* code */
-        
         cout<<fourth[i]<<"";
     }
 
@@ -56,6 +55,17 @@ int main()
     cout << ch[1] << " this is the example of charecter" << endl;
     cout << endl <<"Everything is Fine"<<endl <<endl;
 
+    // Different arrays questions declaration
 
+    double firstDouble[5];
+    cout << firstDouble[5] << " this is the example of double" << endl;
+    float firstFloat[6];
+    cout << firstFloat[6] << " This is float value" << endl;
+    bool firstBool[9];
+    cout << firstBool[9] << " This is first bool value" << endl;
+    cout << endl <<"Everything is Fine"<<endl <<endl;
+    
+
+    
 	return 0;
 }
