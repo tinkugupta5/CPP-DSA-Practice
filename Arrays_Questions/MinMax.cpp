@@ -32,17 +32,10 @@ int main() {
     //taking input in array
     for ( int i = 0; i<size; i++)
     {    
-        cin>>num[i];
-        
-        /* code */
+        cin>>num[i];       
     }
 
     cout << " Maximum value is"<< getMax(num,size)<<endl;
     cout << " Minmum value is"<< getMin(num,size)<<endl;
-    
-
-
-    
     return 0;
-
 }
