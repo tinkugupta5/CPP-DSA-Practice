@@ -12,9 +12,8 @@ int findUnique(int arr[],int size)
     return ans;
 }
 
-
 int main()
 {
     int arr[7] = {2, 3, 1, 6, 3, 6, 2};
     findUnique(arr,7);
-}
+}     
