@@ -11,7 +11,6 @@ int countOccurrences(int arr[], int n, int x)
 int main()
 {
 	int arr[] = {1, 2, 2, 2, 2, 3, 4, 7, 8, 8};
-	
 	int n = sizeof(arr) / sizeof(arr[0]);
 	int x = 2;
 	printf("%d", countOccurrences(arr, n, x));
